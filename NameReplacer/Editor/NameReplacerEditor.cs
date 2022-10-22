@@ -27,7 +27,7 @@ public class NameReplacerEditor : Editor
         {
             var replacer = (NameReplacer)target;
 
-            replacer.ReplaceNames();
+            replacer.ClearObjetcs();
         }
 
         GUILayout.EndHorizontal();
